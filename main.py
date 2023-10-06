@@ -42,4 +42,4 @@ async def hellp(ctx):
 @bot.command()
 async def joined(ctx, member: discord.Member):
     await ctx.send(f'{member.name} Привет! Чтобы мною пользоватся веди префикс . Чтобы подробнее узнать о моих командах напиши .hellp {discord.utils.format_dt(member.joined_at)}')
-bot.run("MTE1NzAxMTQyMjI4NzQ5OTI5Ng.GLjrwf.SuAwRLPmVIghHHJFbmuhJF8qITDNLnICVyaZrE")
+bot.run("TOKEN")
